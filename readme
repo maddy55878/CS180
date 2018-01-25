@@ -1,0 +1,24 @@
+Invented by Yukihiro Matz Matsumoto 1996 Japan 
+
+Influenced by other scripting languages like Perl 
+
+Become popular with Rails in 2005 
+
+Exaple in Java: 
+public class Print3Times { 
+public static void main(String[] args){ 	for(int i = 0; i < 3; i++) { 				System.out.println("Hello World!"); } } }
+
+
+same code in Ruby:
+3.times { puts “Hello World” } 
+
+How to run Ruby:
+$ irb         (interactive command line)
+
+$ rails console  (inside a Rails project)
+
+Run the an .rb file 
+
+Calling a ruby program inside irb   
+        require   ‘./myfile.rb’
+
